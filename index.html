@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DLIT DEMO</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="sources/css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="sources/_assets/css/jqm-demos.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="sources/jquery-2.1.4.min.js"></script>
+	<script src="sources/js/jquery.js"></script>
+	<script src="sources/_assets/js/index.js"></script>
+	<script src="sources/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body onload="$('.jqm-content').load('home.html');">
+<div data-role="page" class="jqm-demos jqm-panel-page" data-quicklinks="true">
+
+
+	<!-- Note: all other panels are at the end of the page, scroll down  -->
+
+	<div data-role="header" class="jqm-header">
+		<h2>DLIT</h2>
+		<a href="#leftpanel1" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+		<a href="#rightpanel1" class="jqm-arrow-d-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-arrow-d ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
+	</div><!-- /header -->
+
+
+
+	<div role="main" class="ui-content jqm-content">
+
+		
+
+	</div><!-- /content -->
+
+
+
+	<!-- Here are a bunch of panels at the end, just before the close page tag  -->
+
+	<!-- leftpanel1  -->
+	<div data-role="panel" class="nav_menu" id="leftpanel1" data-position="left" data-display="reveal" data-theme="a">
+
+        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('home.html');" data-rel="close">ห้องเรียน DLIT</a></li>
+        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('learning_stock.html');"  data-rel="close">คลังสื่อการสอน</a></li>
+        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('about_us.html');"  data-rel="close">เกี่ยวกับ DLIT</a></li>
+        <li class="o365"><a href="javascript:void(0);" data-rel="close"> </a></li>
+
+
+	</div><!-- /leftpanel1 -->
+
+	<div class="nav_menu nav_menu_wide" >
+		<div class="ui-panel-inner">
+	        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('home.html');" data-rel="close">ห้องเรียน DLIT</a></li>
+	        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('learning_stock.html');"  data-rel="close">คลังสื่อการสอน</a></li>
+	        <li><a href="javascript:void(0);" onclick="$('.jqm-content').load('about_us.html');"  data-rel="close">เกี่ยวกับ DLIT</a></li>
+	        <li class="o365"><a href="javascript:void(0);" data-rel="close"> </a></li>
+	    </div>
+
+	</div>
+
+
+	<!-- rightpanel1  -->
+	<div data-role="panel" id="rightpanel1" data-position="right" data-display="reveal" data-theme="b">
+
+        <h3>วีดีโอของฉัน</h3>
+        	<div class="learning_stock my_video">
+				<li>
+					<a href="javascript:void(0);" onclick="">
+						<div class="picture" style="background-image:url(images/ls/ls1.jpg);"></div>
+						<div class="topic">Tense ตอน 3 Present Simple และ Past Simple </div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" onclick="">
+						<div class="picture" style="background-image:url(images/ls/ls2.jpg);"></div>
+						<div class="topic">Tense ตอน 3 Present Simple และ Past Simple </div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" onclick="">
+						<div class="picture" style="background-image:url(images/ls/ls3.jpg);"></div>
+						<div class="topic">Tense ตอน 3 Present Simple และ Past Simple </div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" onclick="">
+						<div class="picture" style="background-image:url(images/ls/ls4.jpg);"></div>
+						<div class="topic">Tense ตอน 3 Present Simple และ Past Simple </div>
+					</a>
+				</li>
+			</div>
+        <!--<a href="#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">ปิด</a>
+-->
+	</div><!-- /rightpanel1 -->
+
+
+</div><!-- /page -->
+
+</body>
+</html>

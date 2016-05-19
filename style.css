@@ -1,0 +1,267 @@
+.jqm-demos .jqm-header {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	border-top:solid 8px #FD8503;
+	height:50px;
+}
+.jqm-demos .jqm-header h2 {
+	line-height: 30px;
+	font-size:30px;
+	color:#4A4A4A;
+}
+.ui-panel-position-left.ui-panel-display-reveal, .ui-panel-open.ui-panel-position-left {
+	background:#212121;
+	color: #FFF;
+}
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+	text-shadow:none;
+}
+.ui-content {
+	padding-top:58px!important;
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+.nav_menu {
+	background:#212121;
+}
+.nav_menu li {
+	list-style-type: none;
+}
+.nav_menu li a {
+	display: block;
+	padding:25px 25px;
+	border-bottom:solid 1px rgba(255,255,255,0.1);
+	text-decoration: none;
+	font-weight: lighter;
+	color:rgba(255,255,255,0.8);
+}
+.nav_menu li a:hover {
+	color:rgba(255,255,255,0.8);
+}
+.nav_menu li a:active {
+	color:#FFF;
+	background:rgba(0,0,0,0.1);
+}
+.nav_menu .o365 {
+	border-bottom: none;
+	padding:20px 0px 0px 0px;
+}
+.nav_menu .o365 a {
+	background:#eb3d01 url(images/office365.png) no-repeat center center;
+	background-size: auto 50%;
+	color:rgba(0,0,0,0)!important;
+	overflow: hidden;
+	text-indent: 300px;
+	border-radius: 3px;
+	text-align: center;
+	transition:0.2s;
+	height: 50px;
+}
+.nav_menu .o365 a:active {
+	background:#CF3500 url(images/office365.png) no-repeat center center;
+	background-size: auto 50%;
+}
+.classroom_widget {
+	display: table;
+	width:100%;
+}
+.classroom_widget li {
+	width:50%;
+	float: left;
+	background:rgba(0,0,0,0.1);
+	list-style-type: none;
+}
+.classroom_widget li a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size:30px;
+	background-position: center center;
+	background-size: 100% auto;
+}
+.classroom_widget li a div {
+	background:rgba(0,0,0,0.3);
+	padding:20px 0px;
+}
+.classroom_widget li a:active div {
+	background:rgba(0,0,0,0.8);
+}
+.classroom_widget li a span {
+	border:solid 1px rgba(255,255,255,1);
+	color:#FFF;
+	font-weight: normal;
+	border-radius:100px;
+	display: inline-block;
+	padding:40px;
+}
+h3.heading {
+	background:#272727 url(images/book.png) no-repeat center 30px;
+	background-size:auto 30px;
+	color:#FFF;
+	text-align: center;
+	display: block;
+	padding:80px 25px 20px 25px;
+	letter-spacing: 2px;
+	font-size:15px;
+	margin:0px;
+	font-weight: lighter;
+	display: table;
+	width:calc(100% - 50px);
+}
+.learning_stock {
+	display: table;
+	width:calc(100% - 20px);
+	padding:10px;
+}
+.learning_stock li {
+	width:calc(50% - 6px);
+	float:left;
+	list-style-type: none;
+	padding:5px 0px 15px 0px;
+}
+.learning_stock li:nth-child(odd) {
+	margin-right:10px;
+}
+.learning_stock li a {
+	border-right:solid 1px rgba(0,0,0,0.1);
+	font-weight: lighter;
+	color:rgb(50,50,50);
+	background-color:#FFF;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	text-decoration: none;
+	display: block;
+	padding:10px;
+}
+.learning_stock li a .picture {
+	width:100%;
+	height:100px;
+	background-size:100% auto;
+}
+.learning_stock li a .topic {
+	text-decoration: none;
+	padding:8px 0px 10px 8px;
+}
+li.more {
+	float: inherit;
+	width:100%;
+	padding:10px 0px;
+	margin:30px 0px 10px 0px;
+	display: table;
+}
+li.more a {
+	color:rgba(0,0,0,0.4);
+	text-align: center;
+	border-radius:3px;
+}
+.subject {
+	padding:20px 10px;
+}
+.subject a {
+	color:rgb(70,70,70);
+	display: block;
+	padding:10px 20px;
+	margin-bottom: 10px;
+	border-radius:4px;
+	text-decoration: none;
+	background:#FFF;
+	font-weight: lighter;
+	border:solid 1px rgba(0,0,0,0.1);
+	text-shadow:none;
+	border-left:solid 10px #FD8503;
+}
+.subject a:hover {
+	color:rgb(70,70,70);
+}
+.subject a:active {
+	background:#FD8503;
+	color:#FFF;
+	border-left-color: rgb(40,40,40);
+}
+.jqm-content {
+	min-height: 600px;
+}
+.download {
+	margin:10px;
+}
+.download a {
+	display: block;
+	font-weight: normal;
+	color:#FFF;
+	text-decoration: none;
+	padding:10px;
+	text-align: center;
+	background:#FD8503;
+}
+.download a:hover {
+	color:#FFF;
+}
+.download a:active {
+	background: #DB7404;
+}
+.description {
+	padding:10px;
+	margin:10px;
+	color:rgba(0,0,0,0.5);
+	background:#FFF;
+	border-radius:4px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.description a {
+	display: block;
+	font-weight: lighter;
+	text-align: center;
+	color:rgb(40,40,40);
+	text-decoration: none;
+	padding:15px 0px;
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+.description a:last-child {
+	border-bottom:none;
+}
+.my_video li {
+	width:100%;
+}
+.nav_menu_wide {
+	display: none;
+}
+@media (min-width: 970px) {
+	.jqm-demos .jqm-header h2 {
+		padding:10px;
+	}
+	.nav_menu_wide {
+		color:rgb(0,0,0,0);
+		display: block;
+	    /* position: absolute; */
+	    /* top: 0px; */
+	    /* left: 0px; */
+	    z-index: 999;
+	    top: 59px;
+	    position: fixed;
+	    width: 350px;
+	    height: calc(100% - 59px);
+	}
+	.jqm-demos .jqm-content {
+		width:calc(100% - 350px)!important;
+	}
+	.learning_stock li a .picture {
+		height:180px;
+	}
+	.learning_stock li {
+		padding-bottom: 30px;
+	}
+	.classroom_widget li a div {
+		padding:50px 0px;
+	}
+}
+@media (min-width: 1024px) {
+	.learning_stock li a .picture {
+		height:200px;
+	}
+	.classroom_widget li a div {
+		padding:80px 0px;
+	}
+}
+.jqm-demos .jqm-content {
+	padding-bottom: 0px;
+}
